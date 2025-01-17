@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omid Karami</title>
+    
+
+    <style>
+        :root {
+            --primary-color: #333;
+            --secondary-color: #222;
+            --accent-color: #4CAF50;
+            --text-color: #fff;
+            --background-color: #121212;
+            --footer-background-color: #1a1a1a;
+            --footer-text-color: #ccc;
+            --header-title-color: #4CAF50;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            transition: all 0.3s ease;
+        }
+
+        header {
+            background: var(--primary-color);
+            color: var(--text-color);
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            color: var(--header-title-color);
+            font-size: 36px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header h2 {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 15px auto;
+            background: var(--secondary-color);
+            border-radius: 8px;
+            max-width: 900px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: var(--footer-background-color);
+            color: var(--footer-text-color);
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px; /* فاصله بین عناصر فوتر */
+        }
+
+        footer a {
+            color: var(--footer-text-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--accent-color);
+        }
+
+        .footer-gif {
+            width: 100px; /* افزایش سایز گیف میکروب */
+            height: auto;
+        }
+
+        .telegram-link {
+            margin-top: 10px;
+            font-size: 16px;
+            color: var(--accent-color);
+            text-decoration: none;
+            display: inline-block;
+            transition: color 0.3s ease;
+        }
+
+        .telegram-link:hover {
+            color: #0077b5; /* تغییر رنگ در حالت هاور */
+        }
+
+        .gif-container {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+            transform: scale(1.5);
+        }
+
+        .gif-container img {
+            width: 75px;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Omid Karami <div class="gif-container"><img src="dna.rna.gif" alt="DNA Animation"></div></h1>
+        <h2>Currently learning machine learning and bioinformatics algorithms in Python </h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h3>About Me</h3>
+        <p>I am a bioinformatician and machine learning enthusiast with a focus on genetics and biology.</p>
+    </section>
+
+    <section id="research">
+        <h3>Research Interests</h3>
+        <ul>
+            <li>ML IN MEDICAL</li>
+            
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h3>Projects</h3>
+        <ul>
+            <li>COMIMG SOON </li>
+        </ul>
+    </section>
+
+    <section id="articles">
+        <h3>Articles and Educational Content</h3>
+        <ul>
+            <li>COMING SOON </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:omidkaramibio@gmail.com">omidkaramibio@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy;  Omid Karami. All rights reserved.</p>
+        <img class="footer-gif" src="microb.gif" alt="Microbe Animation">
+        <a class="telegram-link" href="https://t.me/omidkaramibio" target="_blank">Join My Telegram Channel please </a>
+    </footer>
+</body>
+</html>
